@@ -26,3 +26,21 @@
 # letter_count('banana')
 #
 # > {'a': 3, 'b': 1, 'n': 2}
+
+letter_count = 'banana'
+# for a in 'banana'
+print("a")
+print('a :', sum(char == 'a' for char in letter_count))
+print('b :', sum(char == 'b' for char in letter_count))
+print('n :', sum(char == 'n' for char in letter_count))
+
+
+dd = {
+    "foo": "1"
+}
+
+# dd_ = [dds for dds in dd if dds["foo"] = 1]
+# print(dd_2)
+for key, value in dd.items():
+    print('key', key)
+    print('value', value)

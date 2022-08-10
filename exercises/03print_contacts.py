@@ -20,3 +20,12 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+
+def print_contacts():
+ contacts = (key, value)
+ print(f"{key} {value}")
+ print_contacts(contacts)
+for key, value in contacts.items():
+    print('key', key)
+    print('value', value)

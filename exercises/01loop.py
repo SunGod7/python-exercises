@@ -13,3 +13,10 @@
 # > Hello there
 # > Hello there
 # > Hello there
+def p_times (statement, num):
+    
+    print(f"{statement} some {num} of times")
+
+p_times('Peace Family', 1)
+
+
